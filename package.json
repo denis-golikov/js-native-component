@@ -1,8 +1,9 @@
 {
   "name": "@js-native/component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module for create or/and binding elemts in DOM in OOP style",
   "main": "component.js",
+  "files": ["nil.js"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

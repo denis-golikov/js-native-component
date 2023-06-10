@@ -1,5 +1,7 @@
 'use strict'
 
+import Nil from "./nil"
+
 class Component {
     /**
      * @private
@@ -157,7 +159,7 @@ class Component {
      * @throws {Error}
      */
     compileChildren() {
-        if (typeof this.children() === 'undefined') {
+        if (typeof this.children() === Nil) {
             return
         }
 
